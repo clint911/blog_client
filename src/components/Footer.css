@@ -1,0 +1,18 @@
+ .Footer {
+border: 10px solid maroon;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+background: #FFFFFF;
+box-shadow: inset 0px 1px 0px rgba(30, 40, 52, 0.12);
+}
+.Footer > span {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+/* identical to box height, or 150% */
+color: #1D2939;
+}

@@ -1,0 +1,16 @@
+html, body {
+  margin: 0;
+  width: 100%;
+}
+.homePageComponent {
+  border: 10px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 250px;
+  gap:100px;
+  
+background: #F2F4F7;
+}
+ 

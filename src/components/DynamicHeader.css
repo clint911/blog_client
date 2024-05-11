@@ -1,0 +1,60 @@
+ .DynamicHeader {
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+
+width: 970px;
+height: 286px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+margin: 32px;
+padding: 120px 255px 80px;
+}
+.DynamicHeader > h1 {
+            width: 970px;
+height: 182px;
+
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 700;
+font-size: 76px;
+line-height: 120%;
+/* or 91px */
+
+text-align: center;
+letter-spacing: -0.03em;
+
+/* Hot Graient */
+
+background: linear-gradient(97.1deg, #C41740 4.8%, #EA9C28 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.DynamicHeader > h2 {
+width: 690px;
+height: 84px;
+
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 150%;
+/* or 42px */
+
+text-align: center;
+
+/* Gray/600 */
+
+color: #475467;
+}

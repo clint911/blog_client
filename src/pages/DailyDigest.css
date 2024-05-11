@@ -1,0 +1,6 @@
+.dailyDigestContainer {
+  display: flex;
+  flex-direction: column;
+  border: 10px solid yellow;
+  align-items: center;
+}

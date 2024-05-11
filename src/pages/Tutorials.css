@@ -1,0 +1,6 @@
+.ArticlesComponent {
+  border: 10px solid salmon;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}

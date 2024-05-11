@@ -1,0 +1,32 @@
+.ExtendedArticle {
+ border: 10px solid magenta;
+ display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+/* or 27px */
+
+
+/* Gray/800 */
+
+color: #1D2939;
+}
+.secondArticle >  h5 {
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 140%;
+/* or 45px */
+
+
+/* Gray/800 */
+
+color: #1D2939;
+}
