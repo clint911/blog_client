@@ -1,10 +1,47 @@
 import Error from "../pages/Error";
-import { IArticle, UserRole } from "./dataInterfaces";
+import { ArticleType, IArticle, IComment, IUser, UserRole } from "./dataInterfaces";
+///TODO: Scrape off this shit and work with an article class 
 enum RequestType {
   "GET",
   "UPDATE",
   "DELETE"
 }
+///We can even refactor the functions to be fetch by ID, then they can take in whether they're fetching comments, articles or users, lets try some classes 
+class GETHandler {
+  constructor(_formatedApiRoute) {
+    _formatedApiRoute = this.formatedApiRoute;
+  }
+  async public getAllArticles(_formatedApiRoute) {
+    const _allArticles = fetch(_formatedApiRoute);
+    return _allArticles;
+  }
+  async public getArticleById(_articleId, _formatedApiRoute) {
+    _articleId = this.articleId;
+    const fetchedArticle = fetch(_formatedApiRoute + _articleId);//use ${} for more precision 
+  }
+  async public getAllComments(_formatedApiRoute) {
+    try {
+      const allComments = fetch(_formatedApiRoute);
+      return allComments;
+    } catch (error) {
+      console.log(error)
+      return error;
+    }
+  }
+  async public getCommentById(_commentId: number, _formatedApiRoute) {
+    try {
+      const commentFetched = fetch(_formatedApiRoute + _commentId);
+      return commentFetched;
+    } catch (error) {
+      console.log(error)
+      return error;
+    }
+  }
+}
+const gtHandler = new GETHandler(2);
+gtHandler.getAllArticles("localhost");
+gtHandler.getArticleById(10)
+
 
 const apiRoute: string = "../data/Articles.json";
 export async function fetchAllArticles() {
