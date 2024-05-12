@@ -1,0 +1,42 @@
+[
+  {
+    "userId": 1,
+    "firstname": "John",
+    "lastname": "Doe",
+    "userRole": "normal",
+    "password": 12345,
+    "country": "arizona"
+  },
+  {
+    "userId": 2,
+    "firstname": "James",
+    "lastname": "Bond",
+    "userRole": "normal",
+    "password": 11111,
+    "country": "maine"
+  },
+  {
+    "userId": 3,
+    "firstname": "Perskov",
+    "lastname": "Perviski",
+    "userRole": "normal",
+    "password": 54321,
+    "country": "russia"
+  },
+  {
+    "userId": 4,
+    "firstname": "Liehman",
+    "lastname": "brother",
+    "userRole": "normal",
+    "password": 24689,
+    "country": "lithuania"
+  },
+  {
+    "userId": 5,
+    "firstname": "Rita",
+    "lastname": "Iglesias",
+    "userRole": "admin",
+    "password": 34782,
+    "country": "french"
+  },
+]

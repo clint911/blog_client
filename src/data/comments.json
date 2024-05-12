@@ -1,0 +1,28 @@
+[
+  {
+    "commentId": 1,
+    "commentorId": 1,
+    "textContent": "Hello fw3k3rs"
+  },
+  {
+    "commentId": 2,
+    "commentorId": 3,
+    "textContent": "Great Article"
+  },
+]
+  {
+  "commentId": 3,
+  "commentorId": 2,
+  "textContent": "Good stuff, you should write another one but on  the AI Craze"
+},
+{
+  "commentId": 4,
+  "commentorId": 4,
+  "textContent": "Too much technical jargon but otherwise great content"
+},
+{
+  "commentId": 5,
+  "commentorId": 5,
+  "textContent": "More Content on Finance please"
+}
+]

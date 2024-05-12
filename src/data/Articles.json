@@ -1,0 +1,26 @@
+[
+  {
+    "articleId": 1,
+    "creatorId": 100,
+    "articleType": "Tutorial",
+    "articleContent": "You seriously dont expect me to write an entire article here just for testing"
+  },
+  {
+    "articleId": 2,
+    "creatorId": 102,
+    "articleType": "Design",
+    "articleContent": "An article on Design, Great design stuff about colors and stuff"
+  },
+  {
+    "articleId": 3,
+    "creatorId": 103,
+    "articleType": "DailyDigest",
+    "articleContent": "Some really Great stuff you know, something to read in the morning while you take some coffee and  eggs or snack or fruit or whatever you prefer in the morning, your choice hun"
+  },
+  {
+    "articleId": 4,
+    "creatorId": 104,
+    "articleType": "Other",
+    "articleContent": "Some other content I decide to cover for the day, perhaps something about fintech, finance or even crypto or perhaps me just talking about linus"
+  }
+]
